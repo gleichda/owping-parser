@@ -25,15 +25,11 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
+    py_modules=['owping'],
     keywords='owping network ping',
     project_urls={
-        'Issues': 'https://github.com/mirgleich/owping-parser/issues',
-        'Source:': 'https://github.com/mirgleich/owping-parser',
+        'Tracker': 'https://github.com/mirgleich/owping-parser/issues',
+        'Source': 'https://github.com/mirgleich/owping-parser',
     },
     python_requires='>=3',
-    install_requires=[],
-    extras_require={},
-    package_data={},
-    data_files=[],
-    entry_points={},
 )
