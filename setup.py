@@ -2,10 +2,11 @@ from setuptools import setup
 
 setup(
     name='owping-parser',
-    version='0.0.2',
+    version='0.1.1',
     author='mirgleich',
     author_email='dev.david@familie-gleich.de',
     description='A program to parse the output of owping',
+    long_description='A program to parse the output of owping provided by perfsonar suite',
     url='https://github.com/mirgleich/owping-parser',
     license='GPLv3',
     classifiers=[
