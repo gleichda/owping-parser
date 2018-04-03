@@ -5,7 +5,7 @@ setup(
     version='0.0.1',
     description='A program to parse the output of owping',
     url='https://github.com/mirgleich/owping-parser',
-    license='', #TODO: license
+    license='',  # TODO: license
     classifiers=[
         # How mature is this project? Common values are
         #   3 - Alpha
@@ -15,8 +15,7 @@ setup(
         'Topic :: System :: Networking',
         # Pick your license as you wish (should match "license" above)
          'License :: OSI Approved :: MIT License',
-        #TODO: License
-
+        # TODO: License
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 3',
