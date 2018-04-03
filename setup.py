@@ -2,10 +2,12 @@ from setuptools import setup
 
 setup(
     name='owping-parser',
-    version='0.0.1',
+    version='0.0.2',
+    author='mirgleich',
+    author_email='dev.david@familie-gleich.de',
     description='A program to parse the output of owping',
     url='https://github.com/mirgleich/owping-parser',
-    license='',  # TODO: license
+    license='GPLv3',
     classifiers=[
         # How mature is this project? Common values are
         #   3 - Alpha
@@ -14,8 +16,7 @@ setup(
         'Development Status :: 3 - Alpha',
         'Topic :: System :: Networking',
         # Pick your license as you wish (should match "license" above)
-         'License :: OSI Approved :: MIT License',
-        # TODO: License
+         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 3',
