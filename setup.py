@@ -8,12 +8,12 @@ def readme():
 
 setup(
     name='owping-parser',
-    version='0.2.1',
+    version='0.2.2',
     author='mirgleich',
     author_email='dev.david@familie-gleich.de',
     description='A program to parse the output of owping',
     long_description=readme(),
-    long_description_content_type='text/x-rst',
+    long_description_content_type='text/markdown',
     url='https://github.com/mirgleich/owping-parser',
     license='GPLv3',
     classifiers=[
