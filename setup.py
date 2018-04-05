@@ -1,12 +1,19 @@
 from setuptools import setup
 
+
+def readme():
+    with open('README.md') as f:
+        return f.read()
+
+
 setup(
     name='owping-parser',
-    version='0.1.1',
+    version='0.2.1',
     author='mirgleich',
     author_email='dev.david@familie-gleich.de',
     description='A program to parse the output of owping',
-    long_description='A program to parse the output of owping provided by perfsonar suite',
+    long_description=readme(),
+    long_description_content_type='text/x-rst',
     url='https://github.com/mirgleich/owping-parser',
     license='GPLv3',
     classifiers=[

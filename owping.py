@@ -2,14 +2,14 @@ import socket
 from math import isnan
 
 
-class Parser(object):
-    def parse_owping(self, owping):
+class Parser():
+    def __init__(self, owping):
+        self.owping = owping
+
+    def parse_owping(self):
         from_client = None
-        line_nr = 1
         result = OWPingResult()
-        for line in owping.splitlines():
-            print('reading Line {}'.format(line_nr))
-            line_nr += 1
+        for line in self.owping.splitlines():
             if '--- owping statistics from' in line:
                 if 'from [{}'.format(socket.gethostname()) in line:
                     from_client = True
